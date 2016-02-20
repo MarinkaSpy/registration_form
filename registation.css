@@ -1,0 +1,85 @@
+.relative {
+  position: relative;
+}
+.btn-blue {
+  background-color: #354B87;
+}
+.grey {
+  color: grey;
+}
+
+body {
+   background-color: grey;
+   background-image: url(background-flowers-hipster-iphone-Favim.com-2737529.jpg);
+   background-size:     cover;
+   background-repeat:   no-repeat;
+}
+.registration-form {
+    height: auto;
+
+    margin: auto;
+    margin-top: 30px;
+}
+.registration-form__header {
+  background-color: #1A1C1F;
+  color: white;
+  text-align: left;
+  padding: 20px 30px;
+}
+.registration-form__header h1 {
+  font-size: 30px;
+  font-weight: 200;
+  margin: 0;
+  display: inline-block;
+}
+.bottom_text {
+  position:absolute;
+  bottom:0;
+  width: 36%;
+}
+.registration-form__content, .registration-form__footer {
+  background-color: white;
+  padding: 30px;
+}
+.registration-form__content h3{
+  margin: 0;
+}
+.registration-form__header .fa {
+  float: right;
+  display: inline-block;
+}
+.imput-icon {
+  position: relative;
+}
+.imput-icon .fa{
+  position:absolute;
+  right: 15px;
+  bottom: 10px;
+}
+.information{
+  width: 100%;
+  margin: auto;
+}
+.lined-text {
+  position: relative;
+}
+.lined-text hr {
+  width: 100%;
+  display: inline-block;
+}
+
+.lined-text .text {
+  position: absolute;
+  top: 10px;
+  right: 50%;
+  margin-right: -15px;
+  background-color: white;
+  width: 30px;
+  text-align: center;
+}
+.registration-form__footer  {
+  border-top: 1px solid grey;
+}
+.couple-submit-btn {
+  float: right;
+}
